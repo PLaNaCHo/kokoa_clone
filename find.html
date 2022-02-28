@@ -21,7 +21,7 @@
         <i class="fa-solid fa-bolt-lightning"></i>
       </div>
     </div>
-    <div class="headDesign"></div>
+   <div class="headDesign"></div>
 
     <header class="screen-header">
         <h1 class="header__title">Find</h1>
@@ -30,23 +30,23 @@
                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
             </span>
             <span>
-                <i class="fa-solid fa-gear fa-lg"></i>
+                <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
             </span>
         </div>
     </header>
 
     <main class="main__screen">
-        <div class="find-icons">
-            <div class="find-icons__icon">
+        <div class="icon-row">
+            <div class="icon-row__icon">
                 <i class="fa-solid fa-qrcode"></i>
                 <span>QR Code</span></div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fa-regular fa-address-book"></i>
                 <span>Add by Contacts</span></div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fa-solid fa-fingerprint"></i>
                 <span>Add by ID</span></div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fa-regular fa-envelope"></i>
                 <span>Invite</span></div>
         </div>
@@ -57,20 +57,51 @@
         <div class="open-chat">
             <div class="open-chat__header">
                 <h4>Open Chat</h4>
-                <span>Go to Openchat Home</span>
+                <div>
+                    <span>Go to Openchat Home</span>
+                    <i class="fa-solid fa-chevron-right fa-xs"></i>
+                </div>
             </div>
             <div class="open-post">
                 <div class="open-post__column">
                     <h5 class="open-post__title">#LOL</h5>
                     <h6 class="open-post__hashtags">#lck#t1#gen</h6>
                     <div class="open-post__members">
-                        <img src="#">
-                        <span class="open-post__member-count">2222 members</span>
+                        <img src="https://raw.githubusercontent.com/PLaNaCHo/kokoa_clone/gh-pages/t1.jpg">
+                        <span class="open-post__members-count">2222 members</span>
                         <div class="divider"></div>
-                        <span class="open-post__member-status">Active</span>
+                        <span class="open-post__members-status">Active</span>
                     </div>
                 </div>
-                <div class="open-post__column"></div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://raw.githubusercontent.com/PLaNaCHo/kokoa_clone/gh-pages/t1.jpg">
+                            <div class="open-post__heart-count">
+                                <i class="fa-solid fa-heart"></i><span>222</span>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#LOL</h5>
+                    <h6 class="open-post__hashtags">#lck#t1#gen</h6>
+                    <div class="open-post__members">
+                        <img src="https://raw.githubusercontent.com/PLaNaCHo/kokoa_clone/gh-pages/t1.jpg">
+                        <span class="open-post__members-count">2222 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__members-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://raw.githubusercontent.com/PLaNaCHo/kokoa_clone/gh-pages/t1.jpg">
+                            <div class="open-post__heart-count">
+                                <i class="fa-solid fa-heart"></i><span>222</span>
+                            </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -110,6 +141,9 @@
             </li>
         </ul>
     </nav>
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+      </div>
     <script src="https://kit.fontawesome.com/e231c507aa.js" crossorigin="anonymous"></script>
   </body>
 </html>
