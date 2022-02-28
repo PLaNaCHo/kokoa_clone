@@ -1,3 +1,5 @@
 :root {
     --emerald:rgb(2, 241, 210);
+    --horizontal-space:25px;
+    --main-border:1px solid rgba(0, 0, 0, 0.2);
 }
